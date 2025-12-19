@@ -1,16 +1,92 @@
-# React + Vite
+# VibeCoded — Recipe App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, web-based recipe application that helps users discover, save, and organize recipes. This repository contains the source for the VibeCoded Recipe App — a project focused on building a simple, modern user experience for browsing and managing recipes.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Run (development)](#run-development)
+  - [Build](#build)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+VibeCoded Recipe App is intended to be an approachable recipe manager for users who want to find, save, and categorize recipes. It emphasizes an intuitive UI and straightforward workflows for adding and searching recipes.
 
-## React Compiler
+## Features
+- Browse and search recipes
+- Save favorites
+- Categorize recipes (tags, cuisine, meal type)
+- View ingredients and step-by-step instructions
+- Responsive UI for desktop and mobile
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+(Adjust or expand features to match the actual implementation in the repo.)
 
-## Expanding the ESLint configuration
+## Tech Stack
+- JavaScript or TypeScript
+- Modern web framework (React / Vue / Svelte / Next.js) — update to the actual framework used
+- Package manager: npm or Yarn
+- Optional: backend or database (Firebase, Supabase, or custom API) — update if applicable
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Replace the above items with the exact stack used by this repository.
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14+ recommended)
+- npm or Yarn
+
+### Install
+1. Clone the repository
+   git clone https://github.com/nikhildev-webapp/VibeCoded-RecipeApp.git
+2. Change directory
+   cd VibeCoded-RecipeApp
+3. Install dependencies
+   npm install
+   or
+   yarn install
+
+### Run (development)
+Start the development server:
+npm run dev
+or
+yarn dev
+
+Open http://localhost:3000 (or the host/port your app uses) to view the app.
+
+### Build
+To build for production:
+npm run build
+or
+yarn build
+
+Then serve the build output according to your framework/platform instructions.
+
+## Project Structure
+(Example — update to match the repository)
+- /src — source code
+- /public — static assets
+- /components — UI components
+- /pages or /routes — application pages or routes
+- package.json — project scripts & dependencies
+
+## Contributing
+Contributions are welcome. Typical workflow:
+1. Fork the repository
+2. Create a feature branch: git checkout -b feat/my-feature
+3. Commit your changes and push: git push origin feat/my-feature
+4. Open a pull request describing your changes
+
+Please include tests and update documentation where appropriate.
+
+## License
+Specify a license (e.g., MIT). If no license is present in the repo, add one or clarify licensing with the project owner.
+
+## Contact
+Project maintained by Nikhil (nikhildev-webapp). For questions, open an issue or contact the author via their GitHub profile.
